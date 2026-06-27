@@ -1,0 +1,220 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Segoe UI, sans-serif;
+}
+
+body{
+    background:#ffffff;
+}
+
+.top-bar{
+    height:4px;
+    background:#0078d4;
+}
+
+.container{
+    display:flex;
+    height:100vh;
+}
+
+/* Sidebar */
+
+.sidebar{
+    width:265px;
+    background:#f3f3f3;
+    border-right:1px solid #ddd;
+    padding:15px;
+}
+
+.search-box{
+    display:flex;
+    align-items:center;
+    border:1px solid #0078d4;
+    background:#fff;
+    padding:8px;
+}
+
+.search-box input{
+    border:none;
+    outline:none;
+    width:100%;
+    margin-left:10px;
+}
+
+.menu{
+    list-style:none;
+    margin-top:15px;
+}
+
+.menu li{
+    padding:15px;
+    cursor:pointer;
+    display:flex;
+    gap:12px;
+    align-items:center;
+}
+
+.menu li.active{
+    background:#e5e5e5;
+    font-weight:600;
+}
+
+/* Content */
+
+.content{
+    flex:1;
+}
+
+.header{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:20px;
+}
+
+.header h1{
+    font-size:18px;
+    font-weight:600;
+}
+
+.header p{
+    color:#666;
+}
+
+.close-btn{
+    font-size:20px;
+    cursor:pointer;
+}
+
+.toolbar{
+    border-top:1px solid #ddd;
+    border-bottom:1px solid #ddd;
+    padding:12px 20px;
+}
+
+.toolbar button{
+    border:none;
+    background:none;
+    margin-right:20px;
+    cursor:pointer;
+    color:#444;
+    font-size:14px;
+}
+
+.status-section{
+    display:flex;
+}
+
+.status-left{
+    flex:1;
+    padding:20px;
+}
+
+.success-row{
+    display:flex;
+    align-items:center;
+    gap:12px;
+}
+
+.success-icon{
+    width:24px;
+    height:24px;
+    border-radius:50%;
+    background:#107c10;
+    color:white;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.success-row h2{
+    font-size:20px;
+    font-weight:400;
+}
+
+.details{
+    margin-top:20px;
+}
+
+.detail-item{
+    margin-bottom:10px;
+}
+
+.detail-item a{
+    color:#0078d4;
+    text-decoration:none;
+}
+
+.extra-details{
+    display:flex;
+    gap:100px;
+    margin-top:20px;
+    color:#444;
+}
+
+.accordion{
+    margin-top:40px;
+}
+
+.accordion .item{
+    padding:15px 0;
+    font-size:18px;
+}
+
+.resource-btn{
+    margin-top:20px;
+    background:#0078d4;
+    color:white;
+    border:none;
+    padding:12px 30px;
+    font-size:15px;
+    cursor:pointer;
+}
+
+.right-panel{
+    width:300px;
+    border-left:1px solid #ddd;
+    background:#fafafa;
+    padding:20px;
+}
+
+.card{
+    margin-bottom:40px;
+}
+
+.circle-icon{
+    width:40px;
+    height:40px;
+    border-radius:50%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    color:white;
+    margin-bottom:10px;
+}
+
+.green{
+    background:#8bc34a;
+}
+
+.shield{
+    background:#4caf50;
+}
+
+.card h3{
+    margin-bottom:10px;
+    font-size:18px;
+}
+
+.card p{
+    color:#555;
+    line-height:1.6;
+    margin-bottom:10px;
+}
+
+.card a{
+    color:#0078d4;
+    text-decoration:none;
+}
